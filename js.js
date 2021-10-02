@@ -16,7 +16,9 @@ hamburger.addEventListener('click', function(){
 });
 // nav bar script Ends
 
-// count down start
+// ===============================
+        //COUNT DOWN START
+// ===============================
 // Set the date we're counting down to
 var countDownDate = new Date("dec 31, 2020 22:59:59").getTime();
 

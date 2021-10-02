@@ -1,0 +1,33 @@
+.front-card .card-header{
+    display: flex;
+    padding: 1rem 1.25rem;
+}
+
+
+@media (max-width: 375px) {
+    .title{
+        transform: scale(.5);
+    }
+}
+
+@media (max-width: 425px) {
+    video{
+        position: absolute;
+        margin: 0;
+        padding: 0;    
+        width: 100vw;
+        transform: scale(1.8);
+    }    
+
+    .offer-body{
+        transform: scale(.6) ;
+    }
+
+    .title{
+        transform: scale(.8);
+    }
+
+    .offer-form{
+        transform: scale(.8);        
+    }
+}
